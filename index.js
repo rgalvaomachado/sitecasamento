@@ -40,9 +40,7 @@ function showIndicacaoNoivos(){
 
 
 function makeTimer() {
-    console.log("teste");
-
-    var endTime = new Date("March 30, 2023 16:30:00 GMT-03:00");     
+    var endTime = new Date("March 30, 2024 16:30:00 GMT-03:00");     
     var endTime = (Date.parse(endTime)) / 1000;
 
     var now = new Date();
@@ -59,10 +57,10 @@ function makeTimer() {
     if (minutes < "10") { minutes = "0" + minutes; }
     if (seconds < "10") { seconds = "0" + seconds; }
 
-    $("#days").html(days + "<span>Days</span>");
-    $("#hours").html(hours + "<span>Hours</span>");
-    $("#minutes").html(minutes + "<span>Minutes</span>");
-    $("#seconds").html(seconds + "<span>Seconds</span>");   
+    $("#days").html(days);
+    $("#hours").html(hours);
+    $("#minutes").html(minutes);
+    $("#seconds").html(seconds);   
 
 }
 

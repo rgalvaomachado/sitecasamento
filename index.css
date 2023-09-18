@@ -1,20 +1,32 @@
 /* Geral */
 body{
   margin: 0;
-  padding: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@font-face {
+  font-family: Jonathan;
+  src: url('fonts/Jonathan.ttf');
 }
 
 /* Menu */
-.grid-container {
+.grid-container-menu {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #2196F3;
+  align-items:center;
 }
-.grid-item {
+.grid-item-menu {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+}
+.home{
+  font-size: 50px;
+  font-family: Jonathan;
 }
 .item-menu{
   color: #db4844;
@@ -24,13 +36,48 @@ body{
   color: aqua;
   cursor: pointer;
 }
-/* Inicial */
-@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
-#days, #hours, #minutes, #seconds {
-  font-size: 20px;
-  color: #db4844;
+
+/* Inicial */
+#casal{
+  width: 50%;
 }
+.img_inicial{
+  text-align: center;
+}
+#days, #hours, #minutes, #seconds {
+  font-size: 50px;
+  color: white;
+}
+
+.grid-container-timer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.grid-item-timer {
+  margin: 10px;
+  background-color: red;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  width: 190px;
+}
+
+.imagem_slides{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(203, 203, 203);
+}
+
 
 /* Local */ 
 #local{
@@ -52,13 +99,11 @@ body{
   height:400px!important;
 }
 
+
 /* Lista de presentes */ 
 #lista_presentes{
-  display:none
-}
-iframe{
-  width: 100%;
-  height: 100%;
+  display:none;
+  height: 1500px;
 }
 .iframe{
   width: 80%;
@@ -71,10 +116,45 @@ iframe{
 
 /* Confirmação de presença */ 
 #confirmaçao_presenca{
-  display:none
+  display:none;
+}
+
+#confirmaçao_presenca>.iframe{
+  height: 1500px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Indicação dos noivos */ 
 #indicacao_noivos{
   display:none
+}
+.grid-container-indicacao {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item-indicacao {
+  margin: 20px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 15px;
+  width: 190px;
+}
+
+.grid-item-indicacao>img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* Footer */ 
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
+footer>img{
+  width: 150px;
 }
