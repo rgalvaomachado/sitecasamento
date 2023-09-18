@@ -191,7 +191,7 @@ body{
   align-items: center;
 }
 
-.grid-item-indicacao {
+.grid-item-indicacao label{
   margin: 20px;
   font-size: 15px;
   text-align: center;
@@ -201,11 +201,15 @@ body{
   font-family: Cardo;
 }
 
-.grid-item-indicacao>img {
+.img-indicacao {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
 }
+
 /* Footer */ 
 footer{
   margin-top: 50px;
