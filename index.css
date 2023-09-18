@@ -34,17 +34,16 @@ body{
 /* Menu */
 .grid-container-menu {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% 60% 10%;
   align-items:center;
 }
 .grid-item-menu {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 .home{
-  font-size: 120px;
+  font-size: 90px;
   font-family: Jonathan;
   color: #942c35;
 }
@@ -61,6 +60,13 @@ body{
 .item-menu:hover{
   color: #A1C19C;
   cursor: pointer;
+}
+
+.fa-play, .fa-pause, .fa-volume-mute, .fa-volume-up{
+  color: #942c35;
+}
+.fa-play:hover, .fa-pause:hover, .fa-volume-mute:hover, .fa-volume-up:hover{
+  color: #A1C19C;
 }
 
 
