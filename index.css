@@ -130,10 +130,12 @@ body{
 }
 
 /* Inicial */
+#casal{
+  width: 80%;
+  border-radius: 15px;
+}
+
 @media (min-width: 600px) {
-  #casal{
-    width: 50%;
-  }
 
   .grid-item-timer {
     margin: 10px;
@@ -150,10 +152,6 @@ body{
 }
 
 @media (max-width: 600px) {
-  #casal{
-    width: 100%;
-  }
-
   .grid-item-timer {
     margin: 10px;
     width: 50px;
@@ -207,6 +205,8 @@ body{
   background-size: contain;
   width: 100%;
   height: 600px;
+  background-color: rgba(128, 128, 128, 0.295);
+  border-radius: 15px;
 }
 
 
@@ -221,12 +221,8 @@ body{
 }
 
 #rita{
-  background-image: url('imagens/rita.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 100%;
-  height: 600px;
+  width: 80%;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {
