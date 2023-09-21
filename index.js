@@ -93,3 +93,21 @@ function makeTimer() {
 }
 
 setInterval(function() { makeTimer(); }, 1000);
+
+const site = window.location.href.split("/");
+switch (site[3]) {
+    case '#local':
+        showLocal();
+        break;
+    case '#indicacaodosnoivos':
+        showIndicacaoNoivos();
+        break;
+    case '#confirmacaopresenca':
+        showConfirmacaoPresenca();
+        break;
+    case '#listadepresentes':
+        showListaPresente();
+        break;
+    default:
+        showInicial();
+}
