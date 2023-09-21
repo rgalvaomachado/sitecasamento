@@ -99,13 +99,13 @@ switch (site[3]) {
     case '#local':
         showLocal();
         break;
-    case '#indicacaodosnoivos':
+    case '#indicacao':
         showIndicacaoNoivos();
         break;
-    case '#confirmacaopresenca':
+    case '#confirmacao':
         showConfirmacaoPresenca();
         break;
-    case '#listadepresentes':
+    case '#presente':
         showListaPresente();
         break;
     default:
