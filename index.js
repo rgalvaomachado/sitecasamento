@@ -53,15 +53,15 @@ function pause(){
 }
 
 function mute(){
-    $('.fa-volume-mute').hide();
-    $('.fa-volume-up').show();
+    $('.fa-volume-mute').show();
+    $('.fa-volume-up').hide();
     let player = $('#player');
     player[0].muted = true;
 }
 
 function volume(){
-    $('.fa-volume-mute').show();
-    $('.fa-volume-up').hide();
+    $('.fa-volume-mute').hide();
+    $('.fa-volume-up').show();
     let player = $('#player');
     player[0].muted = false;
 }
