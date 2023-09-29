@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Jonathan;
+    src: url('fonts/Jonathan/Jonathan.ttf');
+}
+
+@font-face {
+    font-family: Cardo;
+    src: url('fonts/Cardo/Cardo-Regular.ttf');
+}
+
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* tela pequena */
+@media (max-width: 600px) { 
+    .title {
+        font-size: 50px;
+    }
+
+    .text{
+        font-size: 15px;
+    }
+
+    .img-title{
+        width: 50.4px;
+        height: 78.8px;
+    }
+
+    .fig-padrinhos1{
+        width: 10%;
+    }
+    
+    .fig-padrinhos2{
+        width: 7%;
+    }
+}
+
+.top{
+    text-align: center;
+}
+.img-top{
+    width: 80%;
+    height: 100%;       
+}
+
+/* tela grande */
+@media (min-width: 600px) {
+    .title {
+        font-size: 100px;
+    }
+
+    .text{
+        font-size: 25px;
+    }
+
+    .img-title{
+        width: 75.6px;
+        height: 118.2px;
+    }
+
+    .fig-padrinhos1{
+        width: 5%;
+    }
+    
+    .fig-padrinhos2{
+        width: 3.5%;
+    }
+}
+
+.title{
+    text-align: center;
+    font-family: Jonathan;
+    color: #942c35;
+}
+
+.text{
+    text-align: center;
+    font-family: Cardo;
+    color: #A1C19C;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 500px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 250px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Footer */ 
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer>img{
+    width: 150px;
+}
