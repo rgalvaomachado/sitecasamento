@@ -1,16 +1,24 @@
 @font-face {
     font-family: Jonathan;
-    src: url('fonts/Jonathan/Jonathan.ttf');
+    src: url('../fonts/Jonathan/Jonathan.ttf');
 }
 
 @font-face {
     font-family: Cardo;
-    src: url('fonts/Cardo/Cardo-Regular.ttf');
+    src: url('../fonts/Cardo/Cardo-Regular.ttf');
 }
 
 body{
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#content{
+    display: none;
+}
+
+#aceitar{
+    text-align: center;
 }
 
 /* tela pequena */
