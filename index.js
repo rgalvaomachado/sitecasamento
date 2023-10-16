@@ -94,6 +94,12 @@ function makeTimer() {
 
 setInterval(function() { makeTimer(); }, 1000);
 
+// let windowWidth = window.innerWidth;
+let windowHeight = window.innerHeight;
+let iframe = windowHeight*0.7;
+$('.iframe').height(iframe);
+
+
 const site = window.location.href.split("/");
 switch (site[3]) {
     case '#local':

@@ -61,6 +61,14 @@ body{
   color: #D17A84;
 }
 
+.iframe{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
 /* Menu */
 .home{
   font-family: Jonathan;
@@ -286,32 +294,11 @@ body{
 /* Lista de presentes */ 
 #lista_presentes{
   display:none;
-  height: 1600px;
-}
-.iframe{
-  width: 100%;
-  height: 1600px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
 /* Confirmação de presença */ 
 #confirmaçao_presenca{
   display:none;
-}
-
-#confirmaçao_presenca>.iframe{
-  height: 1600px;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 600px) {
-  #confirmaçao_presenca>.iframe{
-    width: 100%;
-  }
 }
 
 /* Indicação dos noivos */ 
